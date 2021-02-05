@@ -1,0 +1,467 @@
+this is conver log ,because of if the log is none,the program will be error,so I add this line ---weiwei 
+
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchMsg] dispatch msg id: 796, name:msg_bluetooth_player_pause, delay:0s, sender:Wakeup, receiver:Bluetooth
+2020-12-08 10:53:14.487
+ /uaibot(  439:546214343136) DEBUG  [app][getJsonBody] traceType = 1
+2020-12-08 10:53:14.495
+ /uaibot(  439:546214343136) DEBUG  [app][generateTraceId] did = 338494420, curTime = 1607395994, seed = 1945890414
+2020-12-08 10:53:14.495
+ /uaibot(  439:546214343136) DEBUG  [app][getJsonBody] traceid = LvfWbCxLlqhchjoiaMcwXxzoDvrCyIvo
+2020-12-08 10:53:14.495
+ /uaibot(  439:546214343136) DEBUG  [app][realCommitWakeup] commit trace url: https://utrace.haier.net/utracelog/v2/collectorJSON
+2020-12-08 10:53:14.495
+ /uaibot(  439:546214343136) DEBUG  [app][realCommitWakeup] commit trace body: {"total":1,"logData":[{"pipe":"","bId":"asr","sys":"aidevice","subSys":"","ts":1607395994495,"tk":"","ipm":"","ver":"2.5.33","aId":"MB-SDOT20-0000","uId":"31517459","code":"0","uTraceId":"LvfWbCxLlqhchjoiaMcwXxzoDvrCyIvo","uSpandId":"0.1","bName":"doWakeup","step":5,"args":{"platform":2,"fdid":"C863142D03D4"}}]}
+2020-12-08 10:53:14.496
+ /uaibot(  439:546214343136) DEBUG  [app][getHttpHeader] appId:MB-SDOT20-0000, appKey:a361aa3546e108f0c24cf9936896ba8c, time:1607395994495, sign:ad01e3b61990ea75b042dbb7679d0a961c82e4def9c245e8c47ced956c905357
+2020-12-08 10:53:14.496
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchMsg] dispatch msg id: 797, name:msg_stop_media, delay:0s, sender:Wakeup, receiver:MediaPlayer
+2020-12-08 10:53:14.496
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchMsg] dispatch msg id: 798, name:msg_stop_tts, delay:0s, sender:Wakeup, receiver:Tts
+2020-12-08 10:53:14.496
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchMsg] dispatch msg id: 799, name:msg_start_media, delay:0s, sender:Wakeup, receiver:MediaPlayer
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchMsg] dispatch msg id: 800, name:msg_bluetooth_player_pause, delay:0s, sender:Wakeup, receiver:Bluetooth
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 793 over
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 794
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] app - asr cancle cloud asr
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [sdk][cancel] asr cancel enter status = ASR_RECORDER_STATUS_IDLE
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 794 over
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 795
+2020-12-08 10:53:14.497
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] app - asr wakeup info : {"appVer":"2.5.33","sdkVer":"1.9.7","wakeupStat":"yes"}
+2020-12-08 10:53:14.498
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] traceId:LvfWbCxLlqhchjoiaMcwXxzoDvrCyIvo
+2020-12-08 10:53:14.498
+ /uaibot(  439:547543192032) DEBUG  [app][startAsr] app - asr status is 0, asrMode is no
+2020-12-08 10:53:14.498
+ /uaibot(  439:547543192032) DEBUG  [app][startAsr] app - asr config : {"provider":"xunfei","vad":"true","vadModelPath":"/etc/uaibot/config/","speechLang":"zh-CN","recogmode":"stream","neednlp":"yes","nlpmodel":"x20","needcontent":"yes","opmode":"remote","geekMode":"no","traceId":"LvfWbCxLlqhchjoiaMcwXxzoDvrCyIvo","enableTraceId":"yes","ttssplit":"yes","isDuplex":"false","muteTime":10,"wakeupInfo":"{\"appVer\":\"2.5.33\",\"sdkVer\":\"1.9.7\",\"wakeupStat\":\"yes\"}"}
+2020-12-08 10:53:14.498
+ /uaibot(  439:547543192032) DEBUG  [sdk][start] asr enter
+2020-12-08 10:53:14.498
+ /uaibot(  439:547543192032) DEBUG  [sdk][parseConfig] trace id upload is enabled
+2020-12-08 10:53:14.498
+ /uaibot(  439:547543192032) DEBUG  [sdk][reCreateAsrFilter] AsrRecorderDuplex::reCreateAsrFilter needRebuild:0
+2020-12-08 10:53:14.501
+ /uaibot(  439:547543192032) DEBUG  [sdk][sessionBegin] session begin
+2020-12-08 10:53:14.502
+ /uaibot(  439:547543192032) DEBUG  [sdk][start] Config : {"index":-3,"speechRate":16000,"bitDepth":16,"channel":1,"muteTime":10,"asrTimeout":15,"packageType":0,"speechFormat":"opus","vad":"true","realtime":"false","geekMode":"no","isSync":"no","provider":"xunfei","vadModelPath":"/etc/uaibot/config/","speechLang":"zh-CN","recogmode":"stream","neednlp":"yes","nlpmodel":"x20","needcontent":"yes","opmode":"remote","ttssplit":"yes","sessionid":"20201208104958169872C863142D03D4","protocol":"websocket","wakeupInfo":"{\"appVer\":\"2.5.33\",\"sdkVer\":\"1.9.7\",\"wakeupStat\":\"yes\"}"}
+2020-12-08 10:53:14.502
+ /uaibot(  439:547543192032) DEBUG  [sdk][start] CAS VAD START
+2020-12-08 10:53:14.503
+ /uaibot(  439:547543192032) DEBUG  [sdk][startRecord] start record
+2020-12-08 10:53:14.503
+ /uaibot(  439:546211197408) DEBUG  [sdk][onEvt] event thread enter
+2020-12-08 10:53:14.507
+ /uaibot(  439:546210148832) DEBUG  [app][start] WakeupAudioInput start.
+2020-12-08 10:53:14.507
+ /uaibot(  439:546210148832) DEBUG  [app][getWakeUpTime] get wakeuptime: 521
+2020-12-08 10:53:14.508
+ /uaibot(  439:546210148832) DEBUG  [app][start] voice wakeup want audio size 16 ,total size 45
+2020-12-08 10:53:14.508
+ /uaibot(  439:546210148832) DEBUG  [app][start] voice wakeup insert audio size 16
+2020-12-08 10:53:14.508
+ /uaibot(  439:546210148832) DEBUG  [app][onEvent] app - start record.
+2020-12-08 10:53:14.508
+ /uaibot(  439:546210148832) DEBUG  [app][HandleMessage] enqueue led msg: 11, index: 263,in=0,isResumeBindDeviceFlag=0,isResumeGeekFlag=0
+2020-12-08 10:53:14.508
+ /uaibot(  439:547555467744) DEBUG  [app][handleMsg] handle led msg: 11, index: 263
+2020-12-08 10:53:14.511
+ /uaibot(  439:547543192032) DEBUG  [sdk][setEvent] asr event ASR_RECORDER_STATUS_IDLE to ASR_RECORDER_STATUS_REC
+2020-12-08 10:53:14.511
+ /uaibot(  439:547543192032) DEBUG  [sdk][pushEvtQueue] event push status = ASR_RECORDER_STATUS_REC, errCode = 0, type = 0
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [sdk][setSessionStatus] session status changed SESSION_END to SESSION_BEGIN
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][startAsr] app - asr start asr success.
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][setDuplexState] duplexState is 0
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 795 over
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 796
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] recv auto pause bluetooth player!
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][pause] 
+2020-12-08 10:53:14.512
+ /uaibot(  439:547543192032) DEBUG  [app][pause] after pause bluetooth player current state is: 0
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 796 over
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 797
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media> handle msg: msg_stop_media, id: 797
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] ***********stop
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][notify] MediaEntity::notify : notify type=0. dialog 0 , list size=0 
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][stop] tip_player stop enter.
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][stop] tip_player current status stop want stop
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][stop] tip_player stop leave.
+2020-12-08 10:53:14.513
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media-online> player is null,no need stop
+2020-12-08 10:53:14.514
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 797 over
+2020-12-08 10:53:14.514
+ /uaibot(  439:546205954528) DEBUG  [sdk][onUploading] ready send json : {"total":1,"logData":[{"uTraceId":"LvfWbCxLlqhchjoiaMcwXxzoDvrCyIvo","uSpandId":"","step":5,"bId":"asr","sys":"aisdk","subSys":"asr","ts":1607395994513,"code":"00000","bName":"AsrRecorder/Start","aId":"MB-SDOT20-0000","uId":"","dId":"","tk":"","ipm":"","args":{"fdid":"C863142D03D4","ver":"1.9.7"}}]}
+2020-12-08 10:53:14.515
+ /uaibot(  439:546205954528) DEBUG  [sdk][httpNetWorkSyncRequest] Add a http sync request easy cur handle(0x6002a040,0x6002b770).
+2020-12-08 10:53:14.514
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 798
+2020-12-08 10:53:14.515
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] Tts handle msg: msg_stop_tts
+2020-12-08 10:53:14.515
+ /uaibot(  439:547543192032) DEBUG  [app][notify] TtsEntity::notify : notify type=0, dialog 0 ,list size=0 
+2020-12-08 10:53:14.516
+ /uaibot(  439:547543192032) DEBUG  [app][setQuickStop] mtk player set quick stop: 1
+2020-12-08 10:53:14.516
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] tts player stop enter.
+2020-12-08 10:53:14.516
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] enter
+2020-12-08 10:53:14.516
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] play evt
+2020-12-08 10:53:14.516
+ /uaibot(  439:546713268704) DEBUG  [sdk][onPlay] play wait 1 leave,state=TTS_PLAYER_STATUS_IDLE
+2020-12-08 10:53:14.516
+ /uaibot(  439:546713268704) DEBUG  [sdk][onPlay] play loop leave
+2020-12-08 10:53:14.516
+ /uaibot(  439:546713268704) DEBUG  [sdk][setEvent] tts event TTS_PLAYER_STATUS_IDLE to TTS_PLAYER_STATUS_INIT
+2020-12-08 10:53:14.516
+ /uaibot(  439:546713268704) DEBUG  [app][onEvent] <tts> onEvent evt: 0, param: 0
+2020-12-08 10:53:14.517
+ /uaibot(  439:546713268704) DEBUG  [sdk][setEvent] leave
+2020-12-08 10:53:14.517
+ /uaibot(  439:546713268704) DEBUG  [sdk][playCallback] player thread exit 0
+2020-12-08 10:53:14.517
+ /uaibot(  439:546706977248) DEBUG  [sdk][onTts] syn wait 1 leave,status=1140930272
+2020-12-08 10:53:14.517
+ /uaibot(  439:546706977248) DEBUG  [sdk][ttsCalback] tts thread exit 0
+2020-12-08 10:53:14.517
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] TTS WebSocket stop , _ws_handler=1140914768
+2020-12-08 10:53:14.517
+ /uaibot(  439:547543192032) DEBUG  [sdk][releaseWsHandle] release wbsocket handle.
+2020-12-08 10:53:14.517
+ /uaibot(  439:547543192032) DEBUG  [sdk][detachCallback] CWebSocket delete from callback list Business id : 4 , handler : 1413460728 
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] CWebSocket stop In.
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) INFO   [sdk][stop] CWebSocket stop Leave.
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) INFO   [sdk][~CWebSocket] This is CWebsocket destructor!!
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) DEBUG  [sdk][releaseWsHandle] release wbsocket handle done.
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) DEBUG  [sdk][~WsTtsFilter] ~destructor.
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] TTS WebSocket stop , _ws_handler=0
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) DEBUG  [sdk][releaseWsHandle] release wbsocket handle.
+2020-12-08 10:53:14.518
+ /uaibot(  439:547543192032) DEBUG  [sdk][releaseWsHandle] release wbsocket handle done.
+2020-12-08 10:53:14.519
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] tts player stop leave.
+2020-12-08 10:53:14.519
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 798 over
+2020-12-08 10:53:14.519
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 799
+2020-12-08 10:53:14.519
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media> handle msg: msg_start_media, id: 799
+2020-12-08 10:53:14.519
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] asr_=0, player=0 , url=/usr/data/uaibot/sounds/greeting2.mp3,tip=, shortTip=1,shortUrl=0, musicResume 0, loop=0, 2th=0, 1th=0, isdialog=0, skillPlatform 0, alarm=0
+2020-12-08 10:53:14.519
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] url: /usr/data/uaibot/sounds/greeting2.mp3
+2020-12-08 10:53:14.520
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player play enter.
+2020-12-08 10:53:14.520
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player current status stop want play
+2020-12-08 10:53:14.520
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player reset.
+2020-12-08 10:53:14.520
+ /uaibot(  439:546210148832) DEBUG  [sdk][setSessionStatus] session status changed SESSION_BEGIN to SESSION_PROCESS
+2020-12-08 10:53:14.634
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player setdatasource.
+2020-12-08 10:53:14.638
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player prepare.
+2020-12-08 10:53:14.639
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player play leave.
+2020-12-08 10:53:14.639
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media-local> short start return : 0
+2020-12-08 10:53:14.639
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 799 over
+2020-12-08 10:53:14.639
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 800
+2020-12-08 10:53:14.640
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] recv auto pause bluetooth player!
+2020-12-08 10:53:14.640
+ /uaibot(  439:547543192032) DEBUG  [app][pause] 
+2020-12-08 10:53:14.640
+ /uaibot(  439:547543192032) DEBUG  [app][pause] after pause bluetooth player current state is: 0
+2020-12-08 10:53:14.640
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 800 over
+2020-12-08 10:53:14.646
+ /uaibot(  439:546970792416) DEBUG  [app][OnPrepared] tip_player evt OnPrepared.
+2020-12-08 10:53:14.656
+ /uaibot(  439:546970792416) DEBUG  [app][OnResume] tip_player evt OnResume.
+2020-12-08 10:53:14.656
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent addr: 814240, evt: media-player-event-resume
+2020-12-08 10:53:14.656
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] asr_=0, bPlayer=0, tip=, loop=0, dialog=0, action 
+2020-12-08 10:53:14.656
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent for tip player.
+2020-12-08 10:53:15.015
+ /uaibot(  439:546205954528) DEBUG  [sdk][readMultiInfo] Get a result from handle(0x6002a040,0x6002b770)
+2020-12-08 10:53:15.016
+ /uaibot(  439:546205954528) DEBUG  [sdk][readMultiInfo] curl read leave
+2020-12-08 10:53:15.016
+ /uaibot(  439:546205954528) DEBUG  [sdk][onUploading] traceId logger post traceId result: 00000, 成功
+2020-12-08 10:53:15.051
+ /uaibot(  439:546214343136) DEBUG  [sdk][begin] header data: HTTP/1.1 200 OK
+Server: Tengine
+Date: Tue, 08 Dec 2020 02:53:15 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+reqIp: 10.205.74.20
+reqTimestamp: 1607395995767
+retCode: 00000
+retInfo: 
+userId: -
+
+
+2020-12-08 10:53:15.051
+ /uaibot(  439:546214343136) DEBUG  [app][realCommitWakeup] result : {"retCode":"00000","retInfo":"成功"}
+2020-12-08 10:53:15.078
+ /uaibot(  439:546970792416) DEBUG  [app][OnStopped] tip_player evt OnStopped.
+2020-12-08 10:53:15.079
+ /uaibot(  439:546970792416) DEBUG  [app][OnStopped] tip_player set stop done signal
+2020-12-08 10:53:15.079
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent addr: 814240, evt: media-player-event-stop
+2020-12-08 10:53:15.079
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] asr_=0, bPlayer=0, tip=, loop=0, dialog=0, action 
+2020-12-08 10:53:15.079
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent for tip player.
+2020-12-08 10:53:15.079
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] resume_ 0 ,muted() 0, bPlayerStatus_ 0 ,bluetooth 0 wakeuping 0
+2020-12-08 10:53:15.079
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] player check skill 0, dialog 0
+2020-12-08 10:53:15.291
+ /uaibot(  439:546734600672) DEBUG  [USS][E][8960291][uss_dex_cu_get_localkey_request_inter_byId:110]no usertoken
+
+2020-12-08 10:53:18.295
+ /uaibot(  439:546734600672) DEBUG  [USS][E][8963294][uss_dex_cu_get_localkey_request_inter_byId:110]no usertoken
+
+2020-12-08 10:53:18.295
+ /uaibot(  439:546734600672) DEBUG  [CAE][I][2020-12-08 10:53:18.295002][cae_sock_show_my_ip_port:1226][fd 11, my ip 192.168.1.101 port 34390]
+2020-12-08 10:53:18.709
+ /uaibot(  439:547555494432) DEBUG  [app][main] count: 902, recording state is:1
+2020-12-08 10:53:19.511
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.510681][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.512
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.511774][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.513
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.512790][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.514
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.513398][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.618
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.617376][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.624
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.624038][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.627
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.626774][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.629
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.628510][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.633
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.632439][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.634
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.633588][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.642
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.642150][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:19.648
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:19.647343][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:21.298
+ /uaibot(  439:546734600672) DEBUG  [USS][E][8966298][uss_dex_cu_get_localkey_request_inter_byId:110]no usertoken
+
+2020-12-08 10:53:23.790
+ /uaibot(  439:546684658144) DEBUG  [app][ProcessThread] ===schedule thread live
+2020-12-08 10:53:24.017
+ /uaibot(  439:546226926048) DEBUG  [sdk][vadDetect] VAD_STATUS_NO_INPUT
+2020-12-08 10:53:24.017
+ /uaibot(  439:546226926048) DEBUG  [sdk][setEvent] asr event ASR_RECORDER_STATUS_REC to ASR_RECORDER_STATUS_NOINPUT
+2020-12-08 10:53:24.018
+ /uaibot(  439:546226926048) DEBUG  [sdk][pushEvtQueue] event push status = ASR_RECORDER_STATUS_NOINPUT, errCode = 0, type = 0
+2020-12-08 10:53:24.018
+ /uaibot(  439:546226926048) DEBUG  [sdk][sessionEnd] session end: VAD_NOINPUT, error: 0, current status is ASR_RECORDER_STATUS_NOINPUT
+2020-12-08 10:53:24.018
+ /uaibot(  439:546211197408) DEBUG  [app][onEvent] app - asr cloud asr set ASR_RECORDER_STATUS_NOINPUT, check tts playing 0.
+2020-12-08 10:53:24.018
+ /uaibot(  439:546226926048) DEBUG  [sdk][stopRecord] stop record
+2020-12-08 10:53:24.018
+ /uaibot(  439:546211197408) DEBUG  [app][sendMediaTip] app - sound : say_again.mp3.
+2020-12-08 10:53:24.018
+ /uaibot(  439:546226926048) DEBUG  [app][stop] WakeupAudioInput stop enter.
+2020-12-08 10:53:24.018
+ /uaibot(  439:546211197408) DEBUG  [app][dispatchMsg] dispatch msg id: 801, name:msg_bluetooth_player_pause, delay:0s, sender:Asr, receiver:Bluetooth
+2020-12-08 10:53:24.018
+ /uaibot(  439:546226926048) DEBUG  [app][onEvent] app - stop record..
+2020-12-08 10:53:24.018
+ /uaibot(  439:546211197408) DEBUG  [app][dispatchMsg] dispatch msg id: 802, name:msg_stop_media, delay:0s, sender:Asr, receiver:MediaPlayer
+2020-12-08 10:53:24.018
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 801
+2020-12-08 10:53:24.019
+ /uaibot(  439:546211197408) DEBUG  [app][dispatchMsg] dispatch msg id: 803, name:msg_stop_tts, delay:0s, sender:Asr, receiver:Tts
+2020-12-08 10:53:24.019
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] recv auto pause bluetooth player!
+2020-12-08 10:53:24.018
+ /uaibot(  439:546226926048) DEBUG  [app][onEvent] app - stop finish recorder
+2020-12-08 10:53:24.019
+ /uaibot(  439:547543192032) DEBUG  [app][pause] 
+2020-12-08 10:53:24.019
+ /uaibot(  439:546226926048) DEBUG  [app][HandleMessage] enqueue led msg: 12, index: 264,in=0,isResumeBindDeviceFlag=0,isResumeGeekFlag=0
+2020-12-08 10:53:24.019
+ /uaibot(  439:547543192032) DEBUG  [app][pause] after pause bluetooth player current state is: 0
+2020-12-08 10:53:24.019
+ /uaibot(  439:546226926048) DEBUG  [app][stop] WakeupAudioInput stop leave.
+2020-12-08 10:53:24.019
+ /uaibot(  439:546210148832) DEBUG  [sdk][onRec] recorde loop out
+2020-12-08 10:53:24.019
+ /uaibot(  439:547555467744) DEBUG  [app][handleMsg] handle led msg: 12, index: 264
+2020-12-08 10:53:24.019
+ /uaibot(  439:546210148832) DEBUG  [sdk][recCallback] rec thread quit with err 0
+2020-12-08 10:53:24.019
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 801 over
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 802
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media> handle msg: msg_stop_media, id: 802
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] ***********stop
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][notify] MediaEntity::notify : notify type=0. dialog 0 , list size=0 
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][stop] tip_player stop enter.
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][stop] tip_player current status stop want stop
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][stop] tip_player stop leave.
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media-online> player is null,no need stop
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 802 over
+2020-12-08 10:53:24.020
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 803
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] Tts handle msg: msg_stop_tts
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [app][notify] TtsEntity::notify : notify type=0, dialog 0 ,list size=0 
+2020-12-08 10:53:24.019
+ /uaibot(  439:546211197408) DEBUG  [app][dispatchMsg] dispatch msg id: 804, name:msg_start_media, delay:0s, sender:Asr, receiver:MediaPlayer
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [app][setQuickStop] mtk player set quick stop: 1
+2020-12-08 10:53:24.021
+ /uaibot(  439:546211197408) DEBUG  [app][CloseHandler] HandleMessage()..CloseHandler
+
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] tts player stop enter.
+2020-12-08 10:53:24.021
+ /uaibot(  439:546211197408) DEBUG  [app][HandleMessage] enqueue led msg: 0, index: 265,in=0,isResumeBindDeviceFlag=0,isResumeGeekFlag=0
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [sdk][stop] tts was not running.
+2020-12-08 10:53:24.021
+ /uaibot(  439:546226926048) DEBUG  [sdk][setEvent] asr event ASR_RECORDER_STATUS_NOINPUT to ASR_RECORDER_STATUS_STOP
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 803 over
+2020-12-08 10:53:24.021
+ /uaibot(  439:546226926048) DEBUG  [sdk][pushEvtQueue] event push status = ASR_RECORDER_STATUS_STOP, errCode = 0, type = 0
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 804
+2020-12-08 10:53:24.021
+ /uaibot(  439:546226926048) DEBUG  [sdk][setSessionStatus] session status changed SESSION_PROCESS to SESSION_END
+2020-12-08 10:53:24.021
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media> handle msg: msg_start_media, id: 804
+2020-12-08 10:53:24.021
+ /uaibot(  439:546211197408) DEBUG  [app][onEvent] app - asr cloud asr set ASR_RECORDER_STATUS_STOP.
+2020-12-08 10:53:24.022
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] asr_=0, player=0 , url=/usr/data/uaibot/sounds/say_again.mp3,tip=, shortTip=1,shortUrl=0, musicResume 1, loop=0, 2th=0, 1th=0, isdialog=0, skillPlatform 0, alarm=0
+2020-12-08 10:53:24.022
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] url: /usr/data/uaibot/sounds/say_again.mp3
+2020-12-08 10:53:24.022
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player play enter.
+2020-12-08 10:53:24.022
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player current status stop want play
+2020-12-08 10:53:24.022
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player reset.
+2020-12-08 10:53:24.022
+ /uaibot(  439:546226926048) DEBUG  [sdk][cancel] Asr WebSocket cancel In.
+2020-12-08 10:53:24.023
+ /uaibot(  439:546226926048) DEBUG  [sdk][cancel] Asr WebSocket cancel Leave.
+2020-12-08 10:53:24.023
+ /uaibot(  439:546226926048) DEBUG  [sdk][setEvent] asr event ASR_RECORDER_STATUS_STOP to ASR_RECORDER_STATUS_IDLE
+2020-12-08 10:53:24.023
+ /uaibot(  439:546226926048) DEBUG  [sdk][pushEvtQueue] event push status = ASR_RECORDER_STATUS_IDLE, errCode = 0, type = 0
+2020-12-08 10:53:24.023
+ /uaibot(  439:546226926048) DEBUG  [sdk][pushEvtQueue] event push status = ASR_RECORDER_STATUS_IDLE, errCode = 0, type = 2
+2020-12-08 10:53:24.024
+ /uaibot(  439:546211197408) DEBUG  [app][onEvent] app - asr cloud asr set ASR_RECORDER_STATUS_IDLE.
+2020-12-08 10:53:24.024
+ /uaibot(  439:546211197408) DEBUG  [sdk][evtCallback] evt thread quit with err 0
+2020-12-08 10:53:24.040
+ /uaibot(  439:547555467744) DEBUG  [app][handleMsg] handle led msg: 0, index: 265
+2020-12-08 10:53:24.105
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player setdatasource.
+2020-12-08 10:53:24.109
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player prepare.
+2020-12-08 10:53:24.109
+ /uaibot(  439:547543192032) DEBUG  [app][play] tip_player play leave.
+2020-12-08 10:53:24.109
+ /uaibot(  439:547543192032) DEBUG  [app][handleMessage] <media-local> short start return : 0
+2020-12-08 10:53:24.109
+ /uaibot(  439:547543192032) DEBUG  [app][dispatchLoop] handle msg id: 804 over
+2020-12-08 10:53:24.116
+ /uaibot(  439:546970792416) DEBUG  [app][OnPrepared] tip_player evt OnPrepared.
+2020-12-08 10:53:24.121
+ /uaibot(  439:546970792416) DEBUG  [app][OnResume] tip_player evt OnResume.
+2020-12-08 10:53:24.121
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent addr: 814240, evt: media-player-event-resume
+2020-12-08 10:53:24.121
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] asr_=0, bPlayer=0, tip=, loop=0, dialog=0, action 
+2020-12-08 10:53:24.121
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent for tip player.
+2020-12-08 10:53:24.299
+ /uaibot(  439:546734600672) DEBUG  [USS][E][8969299][uss_dex_cu_get_localkey_request_inter_byId:110]no usertoken
+
+2020-12-08 10:53:24.300
+ /uaibot(  439:546734600672) DEBUG  [CAE][I][2020-12-08 10:53:24.299636][cae_mqtt_client_publish_0:586][send pub topic: Dev/C863142D03D4/HeartBeat]
+2020-12-08 10:53:24.341
+ /uaibot(  439:546734600672) DEBUG  [USS][I][8969340][uss_acd_mqtt_parse_dev_biz_topic:324]get pub(0) topic: Dev/C863142D03D4/HeartBeatAck
+2020-12-08 10:53:24.341
+ /uaibot(  439:546734600672) DEBUG  [CAE][I][2020-12-08 10:53:24.341049][cae_cd_parse_recv_pub:583][get pub(0) topic: Dev/C863142D03D4/HeartBeatAck]
+2020-12-08 10:53:24.341
+ /uaibot(  439:546734600672) DEBUG  [CAE][I][2020-12-08 10:53:24.341233][cae_cd_priv_recv_pub_cb:1192][payload [0x51]: {"sn":"190"}]
+2020-12-08 10:53:24.342
+ /uaibot(  439:546734600672) DEBUG  [CAE][I][2020-12-08 10:53:24.341428][cae_cd_priv_handle_heart_ack:212][heart ack -254312955 sn 190 last -254312997 sn 190 ]
+2020-12-08 10:53:24.732
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:24.731408][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:24.733
+ /uaibot(  439:547274322400) DEBUG  [CAE][I][2020-12-08 10:53:24.733173][cae_sr_k_loop:1078][do normal soft refresh timing!]
+2020-12-08 10:53:25.746
+ /uaibot(  439:546970792416) DEBUG  [app][OnStopped] tip_player evt OnStopped.
+2020-12-08 10:53:25.746
+ /uaibot(  439:546970792416) DEBUG  [app][OnStopped] tip_player set stop done signal
+2020-12-08 10:53:25.746
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent addr: 814240, evt: media-player-event-stop
+2020-12-08 10:53:25.746
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] asr_=0, bPlayer=0, tip=, loop=0, dialog=0, action 
+2020-12-08 10:53:25.746
+ /uaibot(  439:546970792416) DEBUG  [app][onEvent] onEvent for tip player.
+2020-12-08 10:53:25.747
+ /uaibot(  439:546970792416) DEBUG  [app][dispatchMsg] dispatch msg id: 805, name:msg_bluetooth_player_resume, delay:0s, sender:MediaPlayer, receiver:Bluetooth
+2020-12-08
